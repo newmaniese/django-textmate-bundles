@@ -13,6 +13,7 @@
     
     ${12:save_as = True}
     ${13:save_on_top = True}
+    ${14:inlines = [${15:}]}
 
 admin.site.register($1, $1Admin)</string>
 	<key>name</key>

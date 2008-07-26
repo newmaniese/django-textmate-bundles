@@ -3,14 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:slug} = models.SlugField()</string>
+	<string>class ${1:ModelName}Inline(admin.StackedInline):
+    model = ${2:}
+    ${3:extra = ${4:}}
+    ${5:max_num = ${6:}}</string>
 	<key>name</key>
-	<string>SlugField</string>
+	<string>StackedInline Skeleton</string>
 	<key>scope</key>
 	<string>source.python.django</string>
 	<key>tabTrigger</key>
-	<string>slug</string>
+	<string>stackedinline</string>
 	<key>uuid</key>
-	<string>8F14D580-0910-40DE-95B4-10825F3CD656</string>
+	<string>B7BA4C93-E720-4294-9C29-108FFE3180CB</string>
 </dict>
 </plist>
