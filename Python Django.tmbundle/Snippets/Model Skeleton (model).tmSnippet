@@ -4,15 +4,19 @@
 <dict>
 	<key>content</key>
 	<string>class ${1:Modelname}(models.Model):
-	"""${2:($1 description)}"""
-	$0
+    """${2:($1 description)}"""
+    $0
 
-	${3:class Meta:
-		ordering = [${4:}]
-		verbose_name, verbose_name_plural = "${5:}", "${6:$5s}"}
+    ${3:class Meta:
+        ordering = [${4:}]
+        verbose_name, verbose_name_plural = "${5:}", "${6:$5s}"}
 
-	def __unicode__(self):
-		return u"$1"
+    def __unicode__(self):
+        return u"$1"
+
+    ${7:def get_absolute_url(self):
+        return ${8:('$1_detail', (), {${9:}\})
+    get_absolute_url = permalink(get_absolute_url)}}
 </string>
 	<key>name</key>
 	<string>Model Skeleton</string>
