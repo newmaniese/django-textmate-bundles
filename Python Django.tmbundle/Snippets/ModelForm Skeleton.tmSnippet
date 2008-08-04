@@ -4,10 +4,6 @@
 <dict>
 	<key>content</key>
 	<string>class ${1:ModelnameForm}(forms.ModelForm):
-    ${1:def __init__(self, *args, **kwargs):
-         $2
-         super($1, self).__init__(*args, **kwargs)}
-
     $0
 
     ${3:def clean_${4:fieldname}(self):
