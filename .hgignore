@@ -2,3 +2,4 @@ syntax: glob
 *.pyc
 *.orig
 .DS_Store
+Diff.tmbundle
