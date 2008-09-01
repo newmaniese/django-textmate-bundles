@@ -22,7 +22,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>forms\.(BooleanField|CharField|ChoiceField|TypedChoiceField|DateField|DateTimeField|DecimalField|EmailField|FileField|FilePathField|FloatField|ImageField|IntegerField|IPAddressField|MultipleChoiceField|NullBooleanField|RegexField|TimeField|URLField)|(required|label|initial|widget|help_text|error_messages)|forms</string>
+			<string>forms\.(BooleanField|CharField|ChoiceField|TypedChoiceField|DateField|DateTimeField|DecimalField|EmailField|FileField|FilePathField|FloatField|ImageField|IntegerField|IPAddressField|MultipleChoiceField|NullBooleanField|RegexField|TimeField|URLField|ManyToManyField|ForeignKey|OneToOneField)|(required|label|initial|widget|help_text|error_messages)|forms</string>
 			<key>name</key>
 			<string>support.type.django.forms</string>
 		</dict>
