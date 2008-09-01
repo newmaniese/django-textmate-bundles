@@ -22,6 +22,12 @@
 		</dict>
 		<dict>
 			<key>match</key>
+			<string>(forms)\.(BooleanField|CharField|ChoiceField|TypedChoiceField|DateField|DateTimeField|DecimalField|EmailField|FileField|FilePathField|FloatField|ImageField|IntegerField|IPAddressField|MultipleChoiceField|NullBooleanField|RegexField|TimeField|URLField)|(required|label|initial|widget|help_text|error_messages)</string>
+			<key>name</key>
+			<string>support.type.django.forms</string>
+		</dict>
+		<dict>
+			<key>match</key>
 			<string>django(\.[a-z]+){1,} </string>
 			<key>name</key>
 			<string>support.other.django.module</string>
