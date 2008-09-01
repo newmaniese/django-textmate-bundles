@@ -16,7 +16,7 @@
 	<array>
 		<dict>
 			<key>match</key>
-			<string>(meta|models)\.(Admin|AutoField|BooleanField|CharField|CommaSeparatedIntegerField|DateField|DateTimeField|DecimalField|EmailField|FileField|FilePathField|FloatField|ForeignKey|ImageField|IntegerField|IPAddressField|ManyToManyField|NullBooleanField|OneToOneField|PhoneNumberField|PositiveIntegerField|PositiveSmallIntegerField|SlugField|SmallIntegerField|TextField|TimeField|URLField|USStateField|XMLField)</string>
+			<string>(meta|models)\.(AutoField|BooleanField|CharField|CommaSeparatedIntegerField|DateField|DateTimeField|DecimalField|EmailField|FileField|FilePathField|FloatField|ImageField|IntegerField|IPAddressField|NullBooleanField|PhoneNumberField|PositiveIntegerField|PositiveSmallIntegerField|SlugField|SmallIntegerField|TextField|TimeField|URLField|USStateField|XMLField)|(abstract|db_table|db_tablespace|get_latest_by|order_with_respect_to|ordering|permissions|unique_together|verbose_name|verbose_name_plural)|(null|blank|choices|core|db_column|db_index|db_tablespace|default|editable|help_text|primary_key|unique|unique_for_date|unique_for_month|unique_for_year|validator_list)</string>
 			<key>name</key>
 			<string>support.type.django.model</string>
 		</dict>
