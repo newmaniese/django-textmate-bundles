@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>|yesno:"${1:arg}"</string>
+	<string>|last</string>
 	<key>keyEquivalent</key>
 	<string>@|</string>
 	<key>name</key>
-	<string>yesno</string>
+	<string>last</string>
 	<key>scope</key>
 	<string>text.html.django</string>
 	<key>uuid</key>
-	<string>20F0FE5C-BF8C-4258-8F93-3D6F62447068</string>
+	<string>018EBAFA-319D-4CEB-ACB8-DC642103AEB2</string>
 </dict>
 </plist>

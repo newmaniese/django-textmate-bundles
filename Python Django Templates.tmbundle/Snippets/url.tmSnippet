@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% url ${1:package.module.view_fn} ${2:value1,kwarg=value2} %}</string>
+	<string>{% url $1 as $2 %}</string>
 	<key>name</key>
 	<string>url</string>
 	<key>scope</key>
