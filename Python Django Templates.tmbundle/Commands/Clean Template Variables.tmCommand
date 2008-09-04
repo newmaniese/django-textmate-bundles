@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env python
+
+import sys, re
+
+stdin = sys.stdin.read()
+
+def clean_vars(text_to_clean):
+	nosp_var = re.compile('\{\{(\S)', re.VERBOSE)	
+	nosp_end_var = re.compile('(\S)\}\}')
+	text_to_clean = nosp_var.sub(r'{{ \1', text_to_clean)
+	text_to_clean = nosp_end_var.sub(r'\1 }}', text_to_clean)
+	return text_to_clean
+
+def clean_tags(text_to_clean):
+	nosp_tag = re.compile('\{\%(\S)', re.VERBOSE)	
+	nosp_end_tag = re.compile('(\S)\%\}')
+	text_to_clean = nosp_tag.sub(r'{% \1', text_to_clean)
+	text_to_clean = nosp_end_tag.sub(r'\1 %}', text_to_clean)
+	return text_to_clean
+
+
+print clean_tags(clean_vars(stdin))</string>
+	<key>fallbackInput</key>
+	<string>document</string>
+	<key>input</key>
+	<string>document</string>
+	<key>keyEquivalent</key>
+	<string>^t</string>
+	<key>name</key>
+	<string>Clean Template Variables</string>
+	<key>output</key>
+	<string>replaceDocument</string>
+	<key>scope</key>
+	<string>text.html.django</string>
+	<key>uuid</key>
+	<string>649FDADA-8942-4AA7-9F6D-952805DC6DE4</string>
+</dict>
+</plist>
