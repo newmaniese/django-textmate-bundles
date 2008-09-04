@@ -25,7 +25,6 @@ def clean_tags(text_to_clean):
 	text_to_clean = nosp_end_tag.sub(r'\1 %}', text_to_clean)
 	return text_to_clean
 
-
 print clean_tags(clean_vars(stdin))</string>
 	<key>fallbackInput</key>
 	<string>document</string>
