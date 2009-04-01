@@ -14,9 +14,9 @@
     def __unicode__(self):
         return ${7:u"$1"}
 
-    ${6:@models.permalink
+    ${8:@models.permalink
     def get_absolute_url(self):
-        return ('${7:$1}', [${8:self.id}])}</string>
+        return ('${9:$1}', [${10:self.id}])}</string>
 	<key>name</key>
 	<string>Model Skeleton</string>
 	<key>scope</key>
