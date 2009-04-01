@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>{% spaceless %}
 	$1
-{% spaceless %}</string>
+{% endspaceless %}</string>
 	<key>name</key>
 	<string>spaceless</string>
 	<key>tabTrigger</key>
