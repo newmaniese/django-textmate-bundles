@@ -3,3 +3,4 @@ syntax: glob
 *.orig
 .DS_Store
 Diff.tmbundle
+GetBundles.tmbundle
