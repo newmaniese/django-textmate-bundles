@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:FIELDNAME} = models.IPAddressField()</string>
+	<string>${1:FIELDNAME} = models.IPAddressField(${2:blank=True})</string>
 	<key>name</key>
 	<string>IPAddressField</string>
 	<key>scope</key>
