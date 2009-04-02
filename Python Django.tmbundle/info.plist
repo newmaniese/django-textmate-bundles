@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>contactEmailRot13</key>
-	<string>co@r-fpevor.pbz</string>
+	<string>brian@joechip.net</string>
 	<key>contactName</key>
-	<string>Paul Bissex</string>
+	<string>Brian Kerr</string>
 	<key>deleted</key>
 	<array>
 		<string>F4B0A70C-ECF6-4660-BC26-785216E3CF02</string>
@@ -35,7 +35,7 @@
 		<string>935AB0FE-2DB1-4B60-92F5-0D9C70ADF57F</string>
 	</array>
 	<key>description</key>
-	<string>Support for the &lt;a href="http://www.djangoproject.com/"&gt;Django web framework&lt;/a&gt; (Python).</string>
+	<string>Support for the &lt;a href=&quot;http://www.djangoproject.com/&quot;&gt;Django web framework&lt;/a&gt; (Python).</string>
 	<key>mainMenu</key>
 	<dict>
 		<key>items</key>

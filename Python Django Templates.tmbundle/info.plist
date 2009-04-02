@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>contactEmailRot13</key>
-	<string>co@r-fpevor.pbz</string>
+	<string>brian@joechip.net</string>
 	<key>contactName</key>
-	<string>Paul Bissex</string>
+	<string>Brian Kerr</string>
 	<key>deleted</key>
 	<array>
 		<string>1D3B30AE-1FDA-4ECB-9BF4-2D6FF659AFB1</string>
 		<string>1D3B30AE-1FDA-4ECB-9BF4-2D6FF659AFB1</string>
 	</array>
 	<key>description</key>
-	<string>Support for the &lt;a href="http://www.djangoproject.com/"&gt;Django web framework&lt;/a&gt; HTML extensions.</string>
+	<string>Support for the &lt;a href=&quot;http://www.djangoproject.com/&quot;&gt;Django web framework&lt;/a&gt; HTML extensions.</string>
 	<key>mainMenu</key>
 	<dict>
 		<key>items</key>
