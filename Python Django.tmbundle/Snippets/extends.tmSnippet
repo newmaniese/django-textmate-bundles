@@ -6,6 +6,8 @@
 	<string>{% extends '${1:base.html}' %}</string>
 	<key>name</key>
 	<string>extends</string>
+	<key>scope</key>
+	<string>text.html.django</string>
 	<key>tabTrigger</key>
 	<string>extends</string>
 	<key>uuid</key>
