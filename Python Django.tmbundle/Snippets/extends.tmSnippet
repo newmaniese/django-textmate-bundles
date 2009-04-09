@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% extends "$1" %}</string>
+	<string>{% extends '${1:base.html}' %}</string>
 	<key>name</key>
 	<string>extends</string>
 	<key>scope</key>
@@ -11,6 +11,6 @@
 	<key>tabTrigger</key>
 	<string>extends</string>
 	<key>uuid</key>
-	<string>D6B96F8C-4001-4BF6-B219-533161CA6788</string>
+	<string>1F9CF85F-2465-4FC3-AA9D-10B460A59F7B</string>
 </dict>
 </plist>
