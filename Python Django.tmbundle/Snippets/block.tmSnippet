@@ -4,7 +4,7 @@
 <dict>
 	<key>content</key>
 	<string>{% block $1 %}
-	$2
+	$0
 {% endblock $1 %}</string>
 	<key>name</key>
 	<string>block</string>
