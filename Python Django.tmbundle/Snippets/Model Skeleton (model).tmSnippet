@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>class ${1:Modelname}(models.Model):
-    """${2:($1 description)}"""
+	<string>class ${1:Modelname}(${2:models.Model}):
+    """${3:($1 description)}"""
     $0
 
-    ${3:class Meta:
-        ordering = [${4:}]
-        verbose_name, verbose_name_plural = "${5:}", "${6:$5s}"}
+    ${4:class Meta:
+        ordering = [${5:}]
+        verbose_name, verbose_name_plural = "${6:}", "${7:$6s}"}
 
     def __unicode__(self):
-        return ${7:u"$1"}
+        return ${8:u"$1"}
 
-    ${8:@models.permalink
+    ${9:@models.permalink
     def get_absolute_url(self):
-        return ('${9:$1}', [${10:self.id}])}</string>
+        return ('${10:$1}', [${11:self.id}])}</string>
 	<key>name</key>
 	<string>Model Skeleton</string>
 	<key>scope</key>
